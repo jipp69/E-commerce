@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAP. Inuman - Beers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="logo.jpeg" alt="CAP. Inuman" height="30" class="d-inline-block align-top">
+                CAP. Inuman
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="beers.html">Beers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Our Beers</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="beer1.jpeg" class="card-img-top product-image" alt="IPA Delight">
+                    <div class="card-body">
+                        <h5 class="card-title">IPA Delight</h5>
+                        <p class="card-text">A hoppy IPA with citrus notes.</p>
+                        <p class="card-text">$12.99</p>
+                        <button class="btn btn-danger add-to-cart" data-name="IPA Delight" data-price="12.99">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="beer2.jpeg" class="card-img-top product-image" alt="Oatmeal Stout">
+                    <div class="card-body">
+                        <h5 class="card-title">Oatmeal Stout</h5>
+                        <p class="card-text">A rich and creamy stout.</p>
+                        <p class="card-text">$10.99</p>
+                        <button class="btn btn-danger add-to-cart" data-name="Oatmeal Stout" data-price="10.99">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="beer3.jpeg" class="card-img-top product-image" alt="Pale Ale">
+                    <div class="card-body">
+                        <h5 class="card-title">Pale Ale</h5>
+                        <p class="card-text">A balanced and refreshing pale ale.</p>
+                        <p class="card-text">$11.49</p>
+                        <button class="btn btn-danger add-to-cart" data-name="Pale Ale" data-price="11.49">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="beer4.jpeg" class="card-img-top product-image" alt="Wheat Beer">
+                    <div class="card-body">
+                        <h5 class="card-title">Wheat Beer</h5>
+                        <p class="card-text">A smooth and cloudy wheat beer.</p>
+                        <p class="card-text">$9.99</p>
+                        <button class="btn btn-danger add-to-cart" data-name="Wheat Beer" data-price="9.99">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="beer5.jpeg" class="card-img-top product-image" alt="Porter">
+                    <div class="card-body">
+                        <h5 class="card-title">Porter</h5>
+                        <p class="card-text">A dark and robust porter with chocolate and coffee notes.</p>
+                        <p class="card-text">$13.99</p>
+                        <button class="btn btn-danger add-to-cart" data-name="Porter" data-price="13.99">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="beer6.jpeg" class="card-img-top product-image" alt="Sour Ale">
+                    <div class="card-body">
+                        <h5 class="card-title">Sour Ale</h5>
+                        <p class="card-text">A tart and refreshing sour ale with fruity undertones.</p>
+                        <p class="card-text">$10.49</p>
+                        <button class="btn btn-danger add-to-cart" data-name="Sour Ale" data-price="10.49">Add to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5 py-4 bg-dark text-white text-center">
+        <p>&copy; 2024 CAP. Inuman</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

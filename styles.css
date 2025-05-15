@@ -1,0 +1,108 @@
+/* CAP. Inuman Color Scheme: Red and Orange */
+
+body {
+    font-family: sans-serif;
+    background-color: #fffaf0;
+    color: #333;
+    margin: 0; /* Reset default margin */
+    padding-bottom: 70px; /* Add padding for footer */
+    position: relative; /* For absolute positioning of footer */
+    min-height: 100vh; /* Ensure body takes at least full viewport height */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ff4500 !important;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+.jumbotron {
+    background-color: #ff8c00;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.hero-section {
+    background-image: url('background.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.card {
+    border-color: #ff6347;
+}
+
+.card-header {
+    background-color: #ffa07a;
+    color: white;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.product-image {
+    height: 200px; /* Consistent height for product images */
+    object-fit: cover; /* Maintain aspect ratio, crop if needed */
+}
+
+.table th,
+.table td {
+    text-align: center;
+}
+
+.quantity-input {
+    width: 60px;
+    text-align: center;
+}
+
+#order-summary {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+#contact-form label {
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero-section {
+    background-image: url('../img/background.jpg'); /* Path to background image */
+    background-size: cover; /* Cover the entire header */
+    background-position: center; /* Center the image */
+    color: white;
+}
+
+.product-image {
+    height: 200px; /* Fixed height for product images */
+    object-fit: cover; /* Ensure images cover the area, cropping if necessary */
+}
